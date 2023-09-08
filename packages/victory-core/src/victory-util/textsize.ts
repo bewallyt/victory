@@ -368,7 +368,7 @@ export const _approximateTextSizeInternal = {
       return _approximateDimensionsInternal(text, style);
     }
 
-    return _measureDimensionsInternal(text, style);
+    return _approximateDimensionsInternal(text, style);
   },
 };
 
